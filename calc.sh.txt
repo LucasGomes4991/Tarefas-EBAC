@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Dois números para efetuar a soma:"
+echo "Primeiro número: "
+read n1
+echo "Segundo número: "
+read n2
+soma=$((n1+n2))
+echo "$n1 + $n2 = $soma
